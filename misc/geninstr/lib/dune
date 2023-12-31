@@ -1,0 +1,7 @@
+(library
+ (libraries str)
+ (name geninstr))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
